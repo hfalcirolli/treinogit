@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Formulario</h1>
+
+
+    <h3>Formulario com GET</h3>
+    <form method="GET" action="index.html" >
+
+        <input type="text" name="q">
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+    <h3>Formulario com POST</h3>
+
+    <form method="POST" action="index.html" >
+
+        <input type="text" name="q">
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+    <h3>Formulario de login  Facebook</h3>
+    
+    <form method="get" action="index.html">
+        <input type="text" name="Nome" id="Nome" placeholder="Nome">
+        <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome"><br><br>
+        <input type="text" name="Celular-ou-Email  " id="Celular-ou-Email" placeholder="Celular-ou-email" required>
+        <input type="password" name="Senha" id="Senha" placeholder="Nova Senha">
+            <br>
+            <br>
+
+            <label>Data de Nascimento</label>
+            <br>
+         <select name="Dia" id="Dia">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+
+
+        </select>
+
+        <select name="Mes" id="Mes">
+            <option value="Jan">Jan</option>
+            <option value="Fev">Fev</option>
+            <option value="Mar">Mar</option>
+            <option value="Abr">Abr</option>
+            <option value="Mai">mai</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Ago">Ago</option>
+            <option value="Set">Set</option>
+            <option value="Out">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dez">Dez</option>
+        </select>
+
+        <select name="Ano" id="">
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+
+
+        </select>
+        <br>
+        <br>
+
+        <label>Gênero</label>        <br>
+
+        <label for="Feminino"></label>
+        <input type="radio" name="Feminino" id="Feminino">Feminino
+        
+        <label for="Masculino"></label>
+        <input type="radio" name="Masculino" id="Masculino">Masculino
+
+        <label for="Personalisado"></label>
+        <input type="radio" name="Personalisado" id="Personalisado">Personalisado
+        <br>
+        <br>
+        
+        <input type="submit"value="Enviar">
+
+    </form>
+</body>
+</html>
